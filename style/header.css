@@ -1,0 +1,21 @@
+/*styling which is uses href for the header */
+nav {
+    text-align: center;
+    background-color: #f0f0f0;
+    position: fixed;
+    top: 0;
+    left: 20%;
+    width: 80vw;
+    height: 6vh;
+}
+
+nav a {
+    color: black;
+    font-weight: bold;
+    padding: 0.5rem;
+}
+
+nav a:hover {
+    text-decoration: none;
+    color: #007bff;
+}

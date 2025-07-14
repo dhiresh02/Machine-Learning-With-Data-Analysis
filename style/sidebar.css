@@ -1,0 +1,33 @@
+/*styling which is uses href across the pages for the sidebar*/
+
+aside {
+    background-color: #f0f0f0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 20vw;
+    padding-left: 1rem;
+}
+
+aside .title {
+    font-size: 2rem;
+}
+
+aside a {
+    color: black;
+    font-weight: bold;
+    margin-bottom: 20px;
+    display: block;
+}
+
+aside ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+aside li a:hover {
+    text-decoration: none;
+    color: #007bff;
+}

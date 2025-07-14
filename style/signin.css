@@ -1,0 +1,75 @@
+/*styling which is uses href across the pages for the sign in pages and register*/
+
+body {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+   /* https://www.pxfuel.com/en/desktop-wallpaper-zxcxw*/
+   /* reference for the image used in both register and sign in pages*/
+    background-image: url('../images/splash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+div {
+    padding: 10px;
+    background-color: white;
+    text-align: center;
+}
+
+.drop-shadow {
+    position: absolute;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin: 20px;
+    width: 50%;
+    max-width: 400px;
+    left: calc(50vw - 200px);
+    top: 7vh;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-item {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+input {
+    padding: 0.5rem;
+    border: 1px solid grey;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+}
+
+button {
+    width: 56%;
+    padding: 0.5rem;
+    background-color: #0077FF;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+button:hover {
+    background-color: #004da5;
+}
+
+p {
+    margin-top: 1rem;
+}
