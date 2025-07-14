@@ -1,1 +1,4 @@
 # Sneaker Prediction With Data Analysis
+This final year dissertation project focused on developing a machine learning model to predict sneaker resale values using historical data from StockX. Designed for sneaker resellers, the system includes a web-based inventory tracker and a predictive tool to help users decide whether to sell or hold their sneakers for a better future price.
+
+Extensive data analysis using pandas, matplotlib, and seaborn was carried out to explore trends, identify key features, and prepare the data for modeling. A Linear Regression model was then trained and evaluated using metrics like Mean Absolute Error and R² Score. Visual comparisons of predicted vs. actual prices and residual plots were used to measure the model’s accuracy, effectiveness, and reliability. This ensured the system delivered practical, data-driven insights for the sneaker resale market.
